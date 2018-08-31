@@ -30,7 +30,7 @@ export class Example extends React.Component {
         <Component
           refs={{ node: null }}
           didMount={({ refs }) => {
-            refs.node.scrollTop = parseInt(this.state.position);
+            refs.node.scrollTop = parseInt(this.state.position); //
           }}
           didUpdate={({ refs }) => {
             refs.node.scrollTop = parseInt(this.state.position);
